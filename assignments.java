@@ -1,10 +1,13 @@
 
 //https://grahammitchell.com/assignments/
-//Current Assignment: 17
+//Check out Udacity
+
+//Current Assignment: 24
 // Learning based on challenges from "Learn Java the Hard Way (Second Edition)"
 
-//Basics and printing
-/*  Print a letter to yourself - letter.java
+/*          Basics and printing     */
+
+/*  Print a letter to yourself               - letter.java
 //  1 - https://grahammitchell.com/assignments/letter-to-yourself.html
 //      Write a program that displays your name and address on the screen as if it were a letter.
 
@@ -22,7 +25,7 @@ public class assignments {
     }
 }
 */
-/*  Print initials as ASCII - initials.java
+/*  Print initials as ASCII                  - initials.java
 //  2 - https://grahammitchell.com/assignments/your-initials.html
 //      Display your initials on the screen in block letters
 
@@ -96,7 +99,7 @@ public class assignments {
     }
 }
 */
-/*  Printing Choices - choices.java
+/*  Printing Choices                         - choices.java
 //  3 - https://grahammitchell.com/assignments/javahard-chap03.html
 //      Java has two common commands used to display things on the screen. So far we have only looked at println(), but print() is sometimes used, too. This exercise will demonstrate the difference.
 
@@ -122,7 +125,7 @@ public class learn {
     }
 }
 */
-/*  Escape Sequences and Comments - escape.java
+/*  Escape Sequences and Comments            - escape.java
 //  4 - https://grahammitchell.com/assignments/javahard-chap04.html
 //      I've just copied this one over. I know these already. I've taken out blocked comments, as these were messing with my formatting.
 
@@ -142,8 +145,9 @@ public class assignments {
 }
 */
 
-//Variables
-/*  Saving Information in Variables - variables.java
+/*          Variables               */
+
+/*  Saving Information in Variables          - variables.java
 //  5 - https://grahammitchell.com/assignments/javahard-chap05.html
 //      Add four more variables to the program: another integer, another double, and two Strings. Name them whatever you want. Give them values. Print them out.
 
@@ -180,7 +184,7 @@ public class assignments {
     }
 }
 */
-/*  Using Variables - variablesTwo.java
+/*  Using Variables                          - variablesTwo.java
 //  6 - https://grahammitchell.com/assignments/using-variables.html
 //      Write a program that creates three variables: an int, a double, and a String. Put the value 2327 into the first variable, the value 2.71828 into the second, and the value "Computer Science" into the third. It does not matter what you call the variables... this time. Then, display the values of these three variables on the screen, one per line.
 public class assignments {
@@ -193,8 +197,9 @@ public class assignments {
 }
 */
 
-//Keyboard input
-/*  Getting Input from a Human - input.java
+/*          Keyboard input          */
+
+/*  Getting Input from a Human               - input.java
 //  7 - https://grahammitchell.com/assignments/javahard-chap07.html
 //      I have typed this out verbatum. I might need the info, but I know how it's used
 

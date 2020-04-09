@@ -14,5 +14,6 @@ public class input {
         keyboard.nextDouble();
         System.out.println("Is there anything else you would like to say?");
         keyboard.next();
+        keyboard.close();
     }
 }

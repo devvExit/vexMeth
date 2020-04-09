@@ -8,7 +8,8 @@ public class initials {
         //Calls alphabet array and sets int alphabetLength to the length of the alphabet
         char[] alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".toCharArray();
         int alphabetLength = alphabet.length;
-        String[] ascii = { "  A  \n A A \nA   A\nAAAAA\nA   A\nA   A\nA   A\n",
+        String[] ascii = { 
+                "  A  \n A A \nA   A\nAAAAA\nA   A\nA   A\nA   A\n",
                 "BBBB \nB   B\nB   B\nBBBB \nB   B\nB   B\nBBBB \n",
                 " CCC \nC   C\nC    \nC    \nC    \nC   C\n CCC \n",
                 "DDDD \nD   D\nD   D\nD   D\nD   D\nD   D\nDDDD \n",
@@ -68,5 +69,6 @@ public class initials {
                 System.out.print("\n" + ascii[i2]);
             }
         }
+        in.close();
     }
 }
