@@ -1,6 +1,4 @@
 # Java-the-Hard-Way
-https://github.com/Mr-Vexy/vexMeth/
-,__________________________________________________________________________________________________________,
 |Java-the-Hard-Way      .dir           - Java development directory                                        |
 |- Vexmeth              .dir           - Method package directory                                          |
 |---- countingIn        .java          - Displays information about any given string                       |
@@ -24,4 +22,3 @@ https://github.com/Mr-Vexy/vexMeth/
 |- userInput            .java          - Takes user input and prints it                                    |
 |- variables            .java          - Prints some variables                                             |
 |- variablesTwo         .java          - Prints more variables                                             |
-;__________________________________________________________________________________________________________;
