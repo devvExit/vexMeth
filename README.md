@@ -1,6 +1,6 @@
 # Java-the-Hard-Way
 Java-the-Hard-Way      .dir           - Java development directory                                    
-- Vexmeth              .dir           - Method package directory                                      
+- vexmeth              .dir           - Method package directory                                      
 - - countingIn         .java          - Displays information about any given string                   
 - - vexMeth            .java          - Contains different methods                                    
 - age                  .java          - Manipulates age                                               
