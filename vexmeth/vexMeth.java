@@ -1,4 +1,4 @@
-package methods;
+package vexmeth;
 
 import java.io.IOException;
 import java.util.Scanner;

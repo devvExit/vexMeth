@@ -1,11 +1,12 @@
-package methods;
+package vexmeth;
+
 public class countingIn {
     public static String letterCount(String S) {
         String o, u;
         int l;
         o = "";
         u = "";
-        l = S.length()-1;
+        l = S.length() - 1;
 
         for (int i = 0; i <= l; i++) {
             if (i >= 9)
@@ -21,7 +22,7 @@ public class countingIn {
         System.out.print("\t\t\t\t\t\t" + u + "\n");
         System.out.print("The string contains:\t\t\t\t");
 
-        //Count each occurence of every character
+        // Count each occurence of every character
         int charCounter = 0;
         String current = "";
         String counted = "";
@@ -30,19 +31,20 @@ public class countingIn {
             current = S.substring(n - 1, n);
             temp += current;
 
-            //Counts every character of one type!!
+            // Counts every character of one type!!
             for (int ii = 0; ii <= S.length() - 1; ii++) {
                 if (temp.contains(S.substring(ii, ii + 1))) {
                     charCounter++;
                 }
             }
-            //If result string does not contain the current letter, add the result.
+            // If result string does not contain the current letter, add the result.
             if (!counted.contains(S.substring(n - 1, n))) {
                 counted += charCounter + "*" + current + " ";
                 charCounter = 0;
                 temp = "";
             }
-            //If result string DOES contain the current letter, reset character counter and reset temp
+            // If result string DOES contain the current letter, reset character counter and
+            // reset temp
             if (counted.contains(S.substring(n - 1, n))) {
                 charCounter = 0;
                 temp = "";
@@ -50,7 +52,7 @@ public class countingIn {
         }
         return counted;
     }
-        
+
     public static void main(String[] args) {
         System.out.print(letterCount("12345678910"));
     }
