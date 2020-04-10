@@ -28,6 +28,54 @@ public class vexMeth {
             return -1;
     }
 
+    public static void cls(String[] args) {
+        try {
+            new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    /*
+     * SplashScreen Welcome to vexMeth.java
+     * 
+     * What would you like to do?
+     * 
+     * make(x, y, z) canMake(x, y, z) isThis420(s, i, d)
+     * 
+     * Note: Parameters are put in after selecting.
+     */
+    public static void welcome(String[] args) {
+        String iS = "";
+        System.out.println("Welcome to vexMeth.java\n\nWhat would you like to do?\n\n"
+                + "\tmake(x, y, z)\n\tcanMake(x, y, z)\n\tisThis420(s, i, d)\t\t\n\nNote: Parameters are put in after selecting.");
+        Scanner input = new Scanner(System.in);
+        iS = input.next();
+        switch (iS) {
+            case "make":
+                System.out.print("Enter 3 integers xyz with no spaces: ");
+                iS = input.next();
+                int can = make(Integer.valueOf(iS.substring(0)), Integer.valueOf(iS.substring(1)),
+                        Integer.valueOf(iS.substring(2)));
+                System.out.println("\nIt would take at least " + can + " small chocolate bars to make "
+                        + Integer.valueOf(iS.substring(2)) + " units of chocolate.\n\nPress enter to continue...");
+                input.next();
+                main(args);
+                break;
+            case "canMake":
+
+                break;
+            case "isThis420":
+
+                break;
+            default:
+                break;
+        }
+        input.close();
+    }
+
     public static void main(String[] args) {
         System.out.print(isThis420("", 420, 0));
     }
