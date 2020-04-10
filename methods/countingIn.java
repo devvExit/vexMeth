@@ -17,8 +17,8 @@ public class countingIn {
         System.out.println("\n\n");
         System.out.println("We are using the string:\t\t\t" + S);
         System.out.println("The length of this string is:\t\t\t" + (S.length()) + " letters");
-        System.out.println("In .substring(0,9), it counts like this: \t" + o);
-        System.out.println("\t\t\t\t\t\t" + u);
+        System.out.println("In .substring(0,n), it counts like this: \t" + o);
+        System.out.print("\t\t\t\t\t\t" + u + "\n");
         System.out.print("The string contains:\t\t\t\t");
 
         //Count each occurence of every character
@@ -38,7 +38,7 @@ public class countingIn {
             }
             //If result string does not contain the current letter, add the result.
             if (!counted.contains(S.substring(n - 1, n))) {
-                counted += charCounter + current + " ";
+                counted += charCounter + "*" + current + " ";
                 charCounter = 0;
                 temp = "";
             }
@@ -52,6 +52,6 @@ public class countingIn {
     }
         
     public static void main(String[] args) {
-        System.out.print(letterCount("1234567890"));
+        System.out.print(letterCount("12345678910"));
     }
 }

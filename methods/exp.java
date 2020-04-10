@@ -18,20 +18,24 @@ public class exp {
         c = in.nextInt();
 
         //Checks if makeBricks is true and changes t and result to reflect the result in the final string
-        if (makeBricks(a, b, c)){t += " could "; result = "Yes! ";}
-        else                            {t += " can not "; result = "No. ";}
+        if (makeBricks(a, b, c))        {t += " could "; result =   "Yes! ";}
+        else                            {t += " can't "; result =   "No.. ";}
         
         //Output result in a readable way
         System.out.print(result + "You" + t + "reach your goal length of " + c + " inches with  some combination of "
                 + a + " bricks of 1 inch in length and " + b + " bricks of 5 inch in length.\n");
-        System.out.print("Would you like to know something about a string? ");
+        System.out.print("Would you like to know something about a string? (yes) ");
         t = in.next();
         if (t.equals("yes")) {
+            System.out.print("Input string: ");
             t = in.next();
-            System.out.println("\n" + countingIn.letterCount(t));
+            System.out.println(countingIn.letterCount(t));
         }
         t = "";
         result = "";
+        System.out.print("\nGuess my favorite number: \n");
+        t = in.next();
+        System.out.print("\n" + is420.isThis420(t, 0, 0));
         in.close();
     }
 
@@ -39,4 +43,3 @@ public class exp {
         return ((b == 0 && c <= a) || (b * 5 >= c && c % 5 <= a) || (b * 5 <= c && c - b * 5 <= a));}/*
         trueIf  |      true      | OR |          true          | OR |          true              |   */
 }
-
