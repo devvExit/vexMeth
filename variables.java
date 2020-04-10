@@ -21,14 +21,15 @@ public class variables {
         lastName = "Nope";
         title = "Mr.";
         rubberDucky = "a plush dalmation";
-        drink = "liquid LSD.";
+        drink = "water";
 
         System.out.println("The variable x contains " + x);
         System.out.println("The value " + y + " is stored in the variable y.");
         System.out.println("The experiment took " + seconds + " seconds.");
         System.out.println("A favorite irrational number is Euler's number: " + e);
         System.out.println("Hopefully you have more than $" + checking + "!");
-        System.out.println("My name's " + title + " " + firstName + " " + lastName + " And I am " + age + " years old.");
+        System.out
+                .println("My name's " + title + " " + firstName + " " + lastName + " And I am " + age + " years old.");
         System.out.println("I have " + speakerCount + " speakers, and this is a number: " + phoneNumber);
         System.out.println("My rubber ducky is " + rubberDucky + ", and my favorite drink is " + drink);
     }
