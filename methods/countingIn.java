@@ -1,6 +1,26 @@
-
+package methods;
 public class countingIn {
     public static String letterCount(String S) {
+        String o, u;
+        int l;
+        o = "";
+        u = "";
+        l = S.length()-1;
+
+        for (int i = 0; i <= l; i++) {
+            if (i >= 9)
+                o += S.substring(i, i + 1) + "  ";
+            else
+                o += S.substring(i, i + 1) + " ";
+            u += i + " ";
+        }
+        System.out.println("\n\n");
+        System.out.println("We are using the string:\t\t\t" + S);
+        System.out.println("The length of this string is:\t\t\t" + (S.length()) + " letters");
+        System.out.println("In .substring(0,9), it counts like this: \t" + o);
+        System.out.println("\t\t\t\t\t\t" + u);
+        System.out.print("The string contains:\t\t\t\t");
+
         //Count each occurence of every character
         int charCounter = 0;
         String current = "";
@@ -32,26 +52,6 @@ public class countingIn {
     }
         
     public static void main(String[] args) {
-        String S, o, u;
-        int l;
-
-        S = "vexolology";
-        o = "";
-        u = "";
-        l = S.length()-1;
-
-        for (int i = 0; i <= l; i++) {
-            o += S.substring(i, i + 1) + " ";
-            u += i + " ";
-        }
-        System.out.println("\n\n");
-        System.out.println("We are using the string:\t\t\t" + S);
-        System.out.println("The length of this string is:\t\t\t" + (S.length()) + " letters");
-        System.out.println("In .substring(0,9), it counts like this: \t" + o);
-        System.out.println("\t\t\t\t\t\t" + u);
-        System.out.print("The string contains:\t\t\t\t");
-        System.out.print(letterCount(S));
-        
-        
+        System.out.print(letterCount("1234567890"));
     }
 }

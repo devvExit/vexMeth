@@ -1,8 +1,7 @@
+package methods;
 import java.util.Scanner;
+
 public class exp {
-
-    public static boolean makeBricks(int a,int b,int c){return((b==0&&c<=a)||((b*5>=c&&c%5<=a)||(b*5<=c&&c-b*5<=a)));}
-
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int a, b, c;
@@ -24,11 +23,20 @@ public class exp {
         
         //Output result in a readable way
         System.out.print(result + "You" + t + "reach your goal length of " + c + " inches with  some combination of "
-                + a + " bricks of 1 inch in length and " + b + " bricks of 5 inch in length.");
-        
+                + a + " bricks of 1 inch in length and " + b + " bricks of 5 inch in length.\n");
+        System.out.print("Would you like to know something about a string? ");
+        t = in.next();
+        if (t.equals("yes")) {
+            t = in.next();
+            System.out.println("\n" + countingIn.letterCount(t));
+        }
         t = "";
         result = "";
         in.close();
     }
+
+    public static boolean makeBricks(int a, int b, int c) {
+        return ((b == 0 && c <= a) || (b * 5 >= c && c % 5 <= a) || (b * 5 <= c && c - b * 5 <= a));}/*
+        trueIf  |      true      | OR |          true          | OR |          true              |   */
 }
 
