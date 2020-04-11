@@ -14,9 +14,7 @@ public class vexMeth {
 
     public static boolean canMake(int a, int b, int c) {
         return ((b == 0 && c <= a) || (b * 5 >= c && c % 5 <= a) || (b * 5 <= c && c - b * 5 <= a));
-    }/*
-      * trueIf | true | OR | true | OR | true |
-      */
+    }
 
     public static int make(int a, int b, int c) {
         if (b == 0 && c <= a)
