@@ -2,8 +2,17 @@ package vexmeth;
 
 import java.io.IOException;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class vexMeth {
+
+    public static void waiter(int n) throws InterruptedException {
+        System.out.println("\t\t  LOADING\n\t\tPLEASE WAIT");
+        for (int i = 0; i < n; i++) {
+            TimeUnit.MILLISECONDS.sleep(50);
+            System.out.print("▓");
+        }
+    }
 
     public static String isThis420(String s, int i, double d) {
         if (s.equals("420") || i == 420 || d == 420.0)
@@ -57,7 +66,7 @@ public class vexMeth {
      * Press enter to continue...
      */
 
-    public static void welcome(String[] args) {
+    public static void welcome(String[] args) throws InterruptedException {
         String iS = "";
         System.out.println("Welcome to vexMeth.java\n\nWhat would you like to do?\n\n"
                 + "\tmake(x, y, z)\n\tcanMake(x, y, z)\n\tisThis420(s, i, d)\t\t\n\nNote: Parameters are put in after selecting.");
@@ -109,7 +118,9 @@ public class vexMeth {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
+        cls(args);
+        waiter(45);
         cls(args);
         welcome(args);
     }
