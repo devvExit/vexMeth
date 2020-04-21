@@ -1,0 +1,189 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-age<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "age",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-bmi<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "bmi",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-cardioZone<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "cardioZone",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-choices<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "choices",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-escape<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "escape",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-fizzBuzz<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "fizzBuzz",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-humanTest<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "humanTest",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-initials<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "initials",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-input<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "input",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-letter<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "letter",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-modulus<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "modulus",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-questions<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "questions",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-sequencing<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "sequencing",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-squares<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "squares",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-stupidCalculator<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "stupidCalculator",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-theSequencer<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "theSequencer",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-userInput<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "userInput",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-variables<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "variables",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-variablesTwo<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "variablesTwo",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-alpha<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "vexmeth.alpha",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-anagramSolverAlpha<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "vexmeth.anagramSolverAlpha",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-countingIn<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "vexmeth.countingIn",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-vexMeth<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "vexmeth.vexMeth",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-waveFunctions<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "vexmeth.waveFunctions",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-window<Java-the-Hard-Way_29cc0f01>",
+            "request": "launch",
+            "mainClass": "vexmeth.window",
+            "projectName": "Java-the-Hard-Way_29cc0f01"
+        }
+    ]
+}
