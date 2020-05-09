@@ -3,9 +3,9 @@ public class emptyLines {
     public static void main(String[] args) {
         sout("________________________________________");
         l(1);
-        sout("sorry was making food");
+        sout("First line");
         l(2);
-        sout("ok dumb it down for me im high");
+        sout("Second line");
         l(3);
         sout("________________________________________");
     }
@@ -19,4 +19,5 @@ public class emptyLines {
     public static void sout(String s) {
         System.out.println(s);
     }
+
 }
